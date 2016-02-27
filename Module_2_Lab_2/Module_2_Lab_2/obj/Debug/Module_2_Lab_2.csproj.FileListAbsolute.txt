@@ -1,0 +1,6 @@
+E:\C_Sharp\C_Sharp_Projects\Module_2_Lab_2\Module_2_Lab_2\bin\Debug\Module_2_Lab_2.exe.config
+E:\C_Sharp\C_Sharp_Projects\Module_2_Lab_2\Module_2_Lab_2\bin\Debug\Module_2_Lab_2.exe
+E:\C_Sharp\C_Sharp_Projects\Module_2_Lab_2\Module_2_Lab_2\bin\Debug\Module_2_Lab_2.pdb
+E:\C_Sharp\C_Sharp_Projects\Module_2_Lab_2\Module_2_Lab_2\obj\Debug\Module_2_Lab_2.csprojResolveAssemblyReference.cache
+E:\C_Sharp\C_Sharp_Projects\Module_2_Lab_2\Module_2_Lab_2\obj\Debug\Module_2_Lab_2.exe
+E:\C_Sharp\C_Sharp_Projects\Module_2_Lab_2\Module_2_Lab_2\obj\Debug\Module_2_Lab_2.pdb
