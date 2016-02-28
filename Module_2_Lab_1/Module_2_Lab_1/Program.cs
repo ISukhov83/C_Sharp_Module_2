@@ -20,6 +20,7 @@ namespace Module_2_Lab_1
         {
             Books_Limit = Books_Count;
         }
+        //RV: You can create array instance in the constructor instead. It will work with argument Book_Count
         public string[] Books_Array = new String[20/*Books_Limit*/]; /*не получается задать размер масива при инициализации экземпляра*/
         private string[] Books_Array_For_Del = new String[20/*Books_Limit*/]; /*не получается задать размер масива при инициализации экземпляра*/
         public void AddBook(string New_Book_Name)
@@ -37,14 +38,15 @@ namespace Module_2_Lab_1
         }
         private Int32 j = 0;
         public void Remove_Book(string Remove_Book_Name)
-        {
+        {            
             j = 0;
             for(Int32 i=0; i<= Books_Limit- 1; i++)
                 if(Books_Array[i]!= Remove_Book_Name)
                 {
-                    Books_Array_For_Del[j] = Books_Array[i];
+                    Books_Array_For_Del[j] = Books_Array[i]; //RV: The books are left in the Books_Array_For_Del array after book removing operation. Should be cleared after every operation.
                     j++;
                 };
+            //RV: It is easier to not use Books_Array_For_Del member. Just create every time local variable string[] tmp = new string[Books_Limit] array. After copying  in tmp  just do the following: Books_Array = tmp;
             for (Int32 i = 0; i <= Books_Limit - 1; i++)
                 Books_Array[i] = Books_Array_For_Del[i];
         }
